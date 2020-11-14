@@ -1,6 +1,6 @@
 from selenium import webdriver
 from time import sleep
-driver= webdriver.Chrome('C:/Users/Ram Karthik/Downloads/chromedriver_win32/chromedriver')
+driver= webdriver.Chrome('C:/Users/Viharika/Downloads/chromedriver_win32/chromedriver')
 driver.get("https://paytm.com/electricity-bill-payment")
 message_box= driver.find_element_by_xpath("//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[2]/ul/li/div/div/input")
 message_box.send_keys("Andhra Pradesh")
