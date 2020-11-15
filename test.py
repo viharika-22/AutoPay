@@ -6,7 +6,7 @@ message_box= driver.find_element_by_xpath("//*[@id='app']/div/div[4]/div[1]/div[
 message_box.send_keys("Andhra Pradesh")
 sleep(1)
 board= driver.find_element_by_xpath("//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[2]/ul/li[2]/div/div/input").send_keys("Eastern Power Distribution Company of Andhra Pradesh Ltd. (APEPDCL)")
-consumer_number= "116518V026247080"
+consumer_number= "enter_input"
 sleep(2)
 driver.find_element_by_xpath("//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[2]/ul/li[3]/div[1]/input").send_keys(consumer_number)
 sleep(2)
